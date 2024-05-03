@@ -1,6 +1,7 @@
 import React from "react";
 import { useFormStatus } from "react-dom";
 import { FaPaperPlane } from "react-icons/fa";
+import { sendEmail } from "@/actions/sendEmail";
 
 export default function SubmitBtn() {
   const { pending } = useFormStatus();

@@ -8,7 +8,7 @@ import React from "react";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
-  const senderEmail = formData.get("sendEmail");
+  const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
   //   simple server-side validation
@@ -32,7 +32,7 @@ export const sendEmail = async (formData: FormData) => {
       to: "pandey.muskan@outlook.com",
       subject: "Message from contact form",
       reply_to: senderEmail as string,
-      // text: message as string,
+      text: message as string,
       // react : <ContactFormEmail message={message} senderEmail={senderEmail}/>
       react: React.createElement(ContactFormEmail, {
         message: message as string,
@@ -40,12 +40,14 @@ export const sendEmail = async (formData: FormData) => {
       }),
     });
   } catch (error: unknown) {
+    console.log("error", error)
     return {
       error: getErrorMessage(error),
+      
     };
   }
 
   return {
-    data,
+    data
   };
 };
