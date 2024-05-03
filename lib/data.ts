@@ -35,58 +35,58 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer | Intellect Design Arena",
     location: "Chennai, IN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as a full-stack developer. Experienced Full Stack Developer adept in Angular, TypeScript, HTML5, and CSS3. Contributed to the development of user and web UI for CBX projects targeting US and Indian markets. Collaborated with a 7-member team in implementing real-time transaction payment monitoring systems.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "JUNE 2023 - FEB 2024",
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End Developer | Sahu Technologies",
     location: "Mumbai, IN",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Front-end Developer for 2 months, transitioning to Full Stack Developer. Proficient in React.js, Node.js, MongoDB, CSS3, and HTML5. Developed a pizza delivery app enabling user-friendly browsing, customization, ordering, and real-time delivery tracking for customers. Managed orders, menu updates, and delivery tracking for staff members on the admin side.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "DEC 2022 - JAN 2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Python Developer | Dezignolics Web and Software Company",
     location: "Mumbai, IN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Completed a 3-week core Python training and internship in 2021. Developed a Student Login GUI using Tkinter, storing user details in Notepad. Proficient in Python and Tkinter.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "FEB 2021 - MAR 2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "UI-UX GPT3",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Created a responsive React JS website integrating GPT-3, with curated blog and library sections.",
+    tags: ["React JS", "HTML5", "CSS3", "Javascript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "CodePen Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "CodePen: Online code editor for testing HTML, CSS, and JavaScript snippets.",
+    tags: ["React JS", "HTML5", "CSS3", "Javascript"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Fitness Tracker",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Created a responsive Fitness Tracker with React, Node.js, Express.js, and MongoDB. Features include user profiles, workout logging, and visualized fitness statistics using dynamic charts.",
+    tags: ["React", "Node.js", "Express.js", "MongoDB"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML5",
+  "CSS3",
   "JavaScript",
   "TypeScript",
   "React",
@@ -94,14 +94,10 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "AngularJS",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
+  "C/C++",
+  "Java",
   "Framer Motion",
 ] as const;

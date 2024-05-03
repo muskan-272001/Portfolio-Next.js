@@ -33,7 +33,7 @@ export default function About() {
         </span>
         . I am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        <span className="font-medium">full-time position</span> as a FrontEnd
         developer.
       </p>
 
@@ -42,8 +42,7 @@ export default function About() {
         to musics and watching movies, and workout. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">history and philosophy</span>. 
       </p>
     </motion.section>
   );
