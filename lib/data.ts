@@ -67,20 +67,26 @@ export const projectsData = [
       "Created a responsive React JS website integrating GPT-3, with curated blog and library sections.",
     tags: ["React JS", "HTML5", "CSS3", "Javascript"],
     imageUrl: corpcommentImg,
+    githubUrl: "https://github.com/muskan-272001/Ui-Ux_GPT3",
+    liveUrl: "https://ui-ux-gpt-3-jet.vercel.app/"
   },
   {
     title: "CodePen Clone",
     description:
-      "CodePen: Online code editor for testing HTML, CSS, and JavaScript snippets.",
+      "Online code editor for testing HTML, CSS, and JavaScript snippets.",
     tags: ["React JS", "HTML5", "CSS3", "Javascript"],
     imageUrl: rmtdevImg,
+    githubUrl: "https://github.com/muskan-272001/CodePenClone",
+    liveUrl: "https://663607a4456725cae3a1a7b6--dynamic-panda-687586.netlify.app/"
   },
   {
     title: "Fitness Tracker",
     description:
-      "Created a responsive Fitness Tracker with React, Node.js, Express.js, and MongoDB. Features include user profiles, workout logging, and visualized fitness statistics using dynamic charts.",
+      "A responsive Fitness Tracker with features like user profiles, workout logging, & visualized fitness statistics using dynamic charts.",
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
     imageUrl: wordanalyticsImg,
+    githubUrl: "https://github.com/muskan-272001/Fitness-Tracker",
+    liveUrl: "https://fitness-tracker-eosin-beta.vercel.app/"
   },
 ] as const;
 
