@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import NotesAppImg from "@/public/NotesApp.png" 
 
 export const links = [
   {
@@ -88,6 +89,15 @@ export const projectsData = [
     githubUrl: "https://github.com/muskan-272001/Fitness-Tracker",
     liveUrl: "https://fitness-tracker-eosin-beta.vercel.app/"
   },
+  {
+    title: "NotesAPP.API",
+    description:
+      "Created a new Web API using Visual Studio Web API template and implemented CRUD operations and Dependency Injection",
+    tags: ["ASP.NET Core", "MySQL", "Angular", "C#"],
+    imageUrl: NotesAppImg,
+    githubUrl: "https://github.com/muskan-272001/NotesApp_ASP.NET",
+    liveUrl: "https://github.com/muskan-272001/NotesApp_ASP.NET"
+  },
 ] as const;
 
 export const skillsData = [
@@ -106,4 +116,6 @@ export const skillsData = [
   "C/C++",
   "Java",
   "Framer Motion",
+  "ASP.NET",
+  "C#"
 ] as const;
