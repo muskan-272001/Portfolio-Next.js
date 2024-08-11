@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
-import NotesAppImg from "@/public/NotesApp.png" 
+import NotesAppImg from "@/public/NotesApp.png";
 
 export const links = [
   {
@@ -35,6 +35,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Full-Stack Developer | Arya Global Private Ltd",
+    location: "Mumbai, IN",
+    description:
+      "I graduated after 4 years of studying. I immediately found a job as a full-stack developer. Experienced Full Stack Developer adept in Angular, TypeScript, HTML5, and CSS3. Contributed to the development of user and web UI for CBX projects targeting US and Indian markets. Collaborated with a 7-member team in implementing real-time transaction payment monitoring systems.",
+    icon: React.createElement(LuGraduationCap),
+    date: "JUNE 2024 - PRESENT",
+  },
   {
     title: "Full-Stack Developer | Intellect Design Arena",
     location: "Chennai, IN",
@@ -69,7 +77,7 @@ export const projectsData = [
     tags: ["React JS", "HTML5", "CSS3", "Javascript"],
     imageUrl: corpcommentImg,
     githubUrl: "https://github.com/muskan-272001/Ui-Ux_GPT3",
-    liveUrl: "https://ui-ux-gpt-3-jet.vercel.app/"
+    liveUrl: "https://ui-ux-gpt-3-jet.vercel.app/",
   },
   {
     title: "CodePen Clone",
@@ -78,7 +86,8 @@ export const projectsData = [
     tags: ["React JS", "HTML5", "CSS3", "Javascript"],
     imageUrl: rmtdevImg,
     githubUrl: "https://github.com/muskan-272001/CodePenClone",
-    liveUrl: "https://663607a4456725cae3a1a7b6--dynamic-panda-687586.netlify.app/"
+    liveUrl:
+      "https://663607a4456725cae3a1a7b6--dynamic-panda-687586.netlify.app/",
   },
   {
     title: "Fitness Tracker",
@@ -87,7 +96,7 @@ export const projectsData = [
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
     imageUrl: wordanalyticsImg,
     githubUrl: "https://github.com/muskan-272001/Fitness-Tracker",
-    liveUrl: "https://fitness-tracker-eosin-beta.vercel.app/"
+    liveUrl: "https://fitness-tracker-eosin-beta.vercel.app/",
   },
   {
     title: "NotesAPP.API",
@@ -96,7 +105,7 @@ export const projectsData = [
     tags: ["ASP.NET Core", "MySQL", "Angular", "C#"],
     imageUrl: NotesAppImg,
     githubUrl: "https://github.com/muskan-272001/NotesApp_ASP.NET",
-    liveUrl: "https://github.com/muskan-272001/NotesApp_ASP.NET"
+    liveUrl: "https://github.com/muskan-272001/NotesApp_ASP.NET",
   },
 ] as const;
 
@@ -105,11 +114,11 @@ export const skillsData = [
   "CSS3",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "ReactJs",
+  "NextJs",
+  "NodeJs",
   "Git",
-  "Tailwind",
+  "Tailwind CSS",
   "AngularJS",
   "MongoDB",
   "Python",
@@ -117,5 +126,6 @@ export const skillsData = [
   "Java",
   "Framer Motion",
   "ASP.NET",
-  "C#"
+  "C#",
+  "Wordpress"
 ] as const;
